@@ -1,3 +1,27 @@
+body {
+  /* Imagem de fundo da página */
+  background-image: url(assets/bg.jpg);
+  /* Faz a imagem se adaptar ao tamanho da janela */
+  background-size: cover;
+}
+
+#page {
+  /* Largura do container */ 
+  width: 800px;
+  /*Box Sizing para não somar os dois valores (800px + 48px)*/
+  box-sizing: border-box;
+  /* Preenchimento Interno do Container */
+  padding: 24px;
+  /* Cor de fundo do Container */
+  background-color: #F0E8C2;
+  /* Bordinha em curva do Container */
+  border-radius: 24px;
+  /* Espaço entre o Container e o Body da página */
+  margin: 48px auto;
+  
+}
+
 #main-image {
+  /* Bordinha em curva da imagem do container */
   border-radius: 16px;
 }
