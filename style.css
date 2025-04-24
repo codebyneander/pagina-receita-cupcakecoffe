@@ -27,7 +27,7 @@ body {
   /* Bordinha em curva do Container */
   border-radius: 24px;
   /* Espaço entre o Container e o Body da página */
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 #main-image {
@@ -66,4 +66,14 @@ h1, h2 {
   color: #291B1A;
   margin-bottom: 4px;
   line-height: 150%;
+}
+
+footer {
+  text-align: center;
+  color: #F0E8C2;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
