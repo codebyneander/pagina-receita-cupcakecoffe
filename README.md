@@ -25,6 +25,7 @@ Este projeto foi criado com foco em:
 
 ## 📁 Estrutura de Pastas
 
+📦 projeto-receita/ ┣ 📂 assets/ ┃ ┣ 📜 main-image.jpg ┃ ┗ 📜 heart.svg ┣ 📜 index.html ┗ 📜 style.css
 
 ---
 
