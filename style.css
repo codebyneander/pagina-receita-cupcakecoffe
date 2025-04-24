@@ -1,79 +1,82 @@
+/* Tiro a margem e o preenchimento padrão de todos os elementos pra começar tudo do zero */
 * {
   padding: 0;
   margin: 0;
 }
 
+/* Aqui eu defino a fonte padrão do site e a cor principal do texto */
 :root {
   font-family: "Alice", serif;
-  color: #573A37;
+  color: #573A37; /* marrom café */
 }
 
+/* Coloco uma imagem de fundo em toda a tela */
 body {
-  /* Imagem de fundo da página */
   background-image: url(assets/bg.jpg);
-  /* Faz a imagem se adaptar ao tamanho da janela */
-  background-size: cover;
+  background-size: cover; /* faz a imagem preencher a tela toda certinho */
 }
 
+/* Esse é o container principal da página */
 #page {
-  /* Largura do container */ 
-  width: 800px;
-  /*Box Sizing para não somar os dois valores (800px + 48px)*/
-  box-sizing: border-box;
-  /* Preenchimento Interno do Container */
-  padding: 24px;
-  /* Cor de fundo do Container */
-  background-color: #F0E8C2;
-  /* Bordinha em curva do Container */
-  border-radius: 24px;
-  /* Espaço entre o Container e o Body da página */
-  margin: 48px auto 28px;
+  width: 800px; /* largura fixa pra ficar com uma leitura confortável */
+  box-sizing: border-box; /* padding não aumenta a largura total */
+  padding: 24px; /* espaço interno */
+  background-color: #F0E8C2; /* fundo claro que combina com receita */
+  border-radius: 24px; /* bordas arredondadas */
+  margin: 48px auto 28px; /* centralizo a div na tela */
 }
 
+/* Imagem principal da receita */
 #main-image {
-  /* Bordinha em curva da imagem do container */
-  border-radius: 16px;
+  border-radius: 16px; /* cantos arredondados */
 }
 
+/* Espaço geral entre os blocos principais */
 main {
   margin: 24px;
 }
 
+/* Dá espaço entre as seções */
 section + section {
   margin-top: 24px;
 }
 
+/* Espaço entre parágrafos dentro da primeira seção */
 #about p + p {
   margin-top: 12px;
 }
 
+/* Estilo do título principal */
 h1 {
-  line-height: 140%;
   font-size: 40px;
+  line-height: 140%;
 }
 
+/* Subtítulos como "Ingredientes" e "Modo de preparo" */
 h2 {
   font-size: 24px;
-  
 }
 
+/* Deixo as listas com um recuo lateral */
 ul {
   padding-left: 26px;
 }
 
-
+/* Estilo geral pros títulos (cor e espaçamento) */
 h1, h2 {
   color: #291B1A;
   margin-bottom: 4px;
   line-height: 150%;
 }
 
+/* Rodapé lá embaixo da página */
 footer {
   text-align: center;
   color: #F0E8C2;
   padding-bottom: 48px;
 }
 
+/* Faz o ícone do coração ficar alinhado com o texto */
 footer img {
   vertical-align: middle;
 }

@@ -1,66 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Estou dizendo que a linguagem do meu site é português do Brasil -->
+
 <head>
+  <!-- otimizando a performance da fonte com preconnect pra acelerar o carregamento -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+  <!-- garantir que acentos e caracteres especiais funcionem direito -->
   <meta charset="UTF-8">
+
+  <!-- layout da página se adapte às telas de celular -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Esse é o título que aparece na aba do navegador -->
   <title>Página de Receita</title>
 
+  <!-- ligando meu arquivo de estilo CSS externo ao HTML -->
   <link rel="stylesheet" href="style.css">
 
+  <!-- E aqui importo a fonte 'Alice' do Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 </head>
+
 <body>
-   <div id="page">
+  <!-- Esse div é o container principal da minha página -->
+  <div id="page">
+
+    <!-- Essa é a imagem principal da receita. Dou um id pra conseguir estilizar ela depois com CSS -->
     <img id="main-image" src="assets/main-image.jpg" alt="Imagem de cupcakes de café com chantilly">
+
+    <!-- Aqui começa o conteúdo principal da página -->
     <main>
 
+      <!-- Primeira seção: informações sobre a receita -->
       <section id="about">
         <h1>Cupcake de café com chantilly</h1>
 
-        <p>O bolinho perfeito para acompanhar o café de todos os dias. É muito fácil e ainda por cima fica maravilhoso, com certeza vai impressionar. Faz e depois me conta o que achou!</p>
-        
+        <!-- Essa é a descrição da receita -->
+        <p>
+          O bolinho perfeito para acompanhar o café de todos os dias. É muito fácil e ainda por cima fica maravilhoso, com certeza vai impressionar. Faz e depois me conta o que achou!
+        </p>
+
+        <!-- informações principais em formato de parágrafo com quebras de linha -->
         <p>
           Tempo: 1h10 <br>
           Rendimento: 12 porções<br>
           Dificuldade: fácil
         </p>
-        
       </section>
 
+      <!-- Segunda seção: lista de ingredientes -->
       <section id="ingredients">
         <h2>Ingredientes</h2>
+
+        <!-- Usei uma lista não ordenada porque não tem necessidade de numerar -->
         <ul>
-            <li>1 e 1/2 xícara (chá) de água morna</li>
-            <li>1 colher (sopa) de café solúvel</li>
-            <li>3 ovos</li>
-            <li>1/2 xícara (chá) de óleo</li>
-            <li>2 xícaras (chá) de açúcar</li>
-            <li>2/3 de xícara (chá) de chocolate em pó</li>
-            <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
-            <li>1 colher (sopa) de fermento em pó químico</li>
-            <li>2 xícaras (chá) de chantilly pronto</li>
-            <li>Grãos de café para decorar</li>
-            <li>1 lata de leite condensado</li>
-            <li>1 colher (sopa) de café solúvel</li>
-            <li>1 colher (sopa) de chocolate em pó</li>
-            <li>2 colheres (sopa) de manteiga</li>
+          <li>1 e 1/2 xícara (chá) de água morna</li>
+          <li>1 colher (sopa) de café solúvel</li>
+          <li>3 ovos</li>
+          <li>1/2 xícara (chá) de óleo</li>
+          <li>2 xícaras (chá) de açúcar</li>
+          <li>2/3 de xícara (chá) de chocolate em pó</li>
+          <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
+          <li>1 colher (sopa) de fermento em pó químico</li>
+          <li>2 xícaras (chá) de chantilly pronto</li>
+          <li>Grãos de café para decorar</li>
+          <li>1 lata de leite condensado</li>
+          <li>1 colher (sopa) de café solúvel</li>
+          <li>1 colher (sopa) de chocolate em pó</li>
+          <li>2 colheres (sopa) de manteiga</li>
         </ul>
       </section>
 
+      <!-- Terceira seção: modo de preparo -->
       <section id="preparation">
         <h2>Modo de preparo</h2>
+
+        <!-- Aqui eu explico passo a passo o processo da receita -->
         <p>
-          No liquidificador, bata a água, o café solúvel, os ovos, o óleo, o açúcar e o chocolate em pó até ficar homogêneo. Transfira para uma tigela, adicione a farinha e o fermento e misture com uma colher. Despeje em forminhas para cupcakes forradas com forminhas de papel e coloque em uma fôrma grande, um ao lado do outro. Leve ao forno médio, preaquecido, por 25 minutos ou até assar e dourar. Retire e deixe esfriar. <br><br>
-Para o recheio, leve todos os ingredientes ao fogo médio, mexendo bem até engrossar. Desligue, deixe esfriar e coloque dentro de um saco de confeiteiro com bico perle. Reserve. Coloque o chantilly dentro de um saco de confeiteiro com bico pitanga e reserve. <br><br>
-Para a montagem, faça um furo no centro dos cupcakes e recheie com o brigadeiro de café reservado. Decore as superfícies dos cupcakes com o chantilly reservado, fazendo círculos. Decore com grãos de café e leve à geladeira até o momento de servir.
+          No liquidificador, bato a água, o café solúvel, os ovos, o óleo, o açúcar e o chocolate em pó até ficar homogêneo. Depois transfiro pra uma tigela, adiciono a farinha e o fermento e misturo com uma colher. Coloco nas forminhas e levo ao forno médio por 25 minutos. <br><br>
+
+          Pro recheio, levo os ingredientes ao fogo até engrossar. Deixo esfriar, coloco no saco de confeitar com bico perle e reservo. Faço o mesmo com o chantilly, usando bico pitanga. <br><br>
+
+          Pra montar, faço um furinho no centro de cada cupcake e recheio com o brigadeiro. Decoro com chantilly e grãos de café. Depois levo à geladeira até servir.
         </p>
       </section>
+
     </main>
-   </div>
-   <footer>Feito com <img src="assets/heart.svg" alt="Coração"> por Renan Guilherme</footer>
+  </div>
+
+  <!-- Rodapé da página, com uma mensagem personalizada -->
+  <footer>
+    Feito com <img src="assets/heart.svg" alt="Coração"> por Renan Guilherme
+  </footer>
 </body>
 </html>
