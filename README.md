@@ -46,13 +46,12 @@ Este projeto foi criado com foco em:
 
 ---
 
-## 🚀 Como visualizar
 
-1. Faça o clone deste repositório:
-```bash
-git clone https://github.com/seu-usuario/pagina-receita.git
-```
-2. Abra o arquivo index.html com seu navegador preferido.
+# 🌐 Acesse o Projeto Publicado
+
+## ➡️ [Clique aqui para visualizar online](https://codebyneander.github.io/pagina-receita-cupcakecoffe/)
+
+---
 
 ## 📷 Inspiração Visual
 
